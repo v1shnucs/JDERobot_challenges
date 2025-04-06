@@ -1,0 +1,5 @@
+[console_scripts]
+publisher = ros2_demo.publisher:main
+subscriber = ros2_demo.subscriber:main
+turtle_nav = ros2_demo.turtle_nav:main
+

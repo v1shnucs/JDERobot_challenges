@@ -1,0 +1,1 @@
+/home/vishnu/ros2_ws/build/ros2_demo/ament_cmake_environment_hooks/local_setup.zsh

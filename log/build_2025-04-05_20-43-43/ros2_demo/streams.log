@@ -1,0 +1,43 @@
+[0.007s] Invoking command in '/home/vishnu/ros2_ws/build/ros2_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/vishnu/ros2_ws/ros2_demo -DCMAKE_INSTALL_PREFIX=/home/vishnu/ros2_ws/install/ros2_demo
+[0.015s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.031s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.146s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.149s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.155s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.171s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.171s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.183s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.256s] -- Configuring done
+[0.263s] -- Generating done
+[0.264s] -- Build files have been written to: /home/vishnu/ros2_ws/build/ros2_demo
+[0.265s] Invoked command in '/home/vishnu/ros2_ws/build/ros2_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/vishnu/ros2_ws/ros2_demo -DCMAKE_INSTALL_PREFIX=/home/vishnu/ros2_ws/install/ros2_demo
+[0.267s] Invoking command in '/home/vishnu/ros2_ws/build/ros2_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/vishnu/ros2_ws/build/ros2_demo -- -j16 -l16
+[0.289s] [35m[1mScanning dependencies of target publisher[0m
+[0.290s] [35m[1mScanning dependencies of target subscriber[0m
+[0.304s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.304s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[1.439s] [ 75%] [32m[1mLinking CXX executable publisher[0m
+[1.515s] [ 75%] Built target publisher
+[1.544s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[1.623s] [100%] Built target subscriber
+[1.632s] Invoked command in '/home/vishnu/ros2_ws/build/ros2_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/vishnu/ros2_ws/build/ros2_demo -- -j16 -l16
+[1.656s] Invoking command in '/home/vishnu/ros2_ws/build/ros2_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/vishnu/ros2_ws/build/ros2_demo --target install -- -j16 -l16
+[1.692s] [100%] Built target publisher
+[1.692s] [100%] Built target subscriber
+[1.703s] [36mInstall the project...[0m
+[1.708s] -- Install configuration: ""
+[1.708s] -- Execute custom install script
+[1.709s] -- Up-to-date symlink: /home/vishnu/ros2_ws/install/ros2_demo/lib/ros2_demo/publisher
+[1.709s] -- Up-to-date symlink: /home/vishnu/ros2_ws/install/ros2_demo/lib/ros2_demo/subscriber
+[1.709s] -- Up-to-date symlink: /home/vishnu/ros2_ws/install/ros2_demo/share/ament_index/resource_index/package_run_dependencies/ros2_demo
+[1.709s] -- Up-to-date symlink: /home/vishnu/ros2_ws/install/ros2_demo/share/ament_index/resource_index/parent_prefix_path/ros2_demo
+[1.710s] -- Up-to-date symlink: /home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/environment/ament_prefix_path.sh
+[1.710s] -- Up-to-date symlink: /home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/environment/path.sh
+[1.710s] -- Up-to-date symlink: /home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/local_setup.bash
+[1.711s] -- Up-to-date symlink: /home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/local_setup.sh
+[1.711s] -- Up-to-date symlink: /home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/local_setup.zsh
+[1.711s] -- Up-to-date symlink: /home/vishnu/ros2_ws/install/ros2_demo/share/ament_index/resource_index/packages/ros2_demo
+[1.711s] -- Up-to-date symlink: /home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/cmake/ros2_demoConfig.cmake
+[1.711s] -- Up-to-date symlink: /home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/cmake/ros2_demoConfig-version.cmake
+[1.711s] -- Up-to-date symlink: /home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/package.xml
+[1.721s] Invoked command in '/home/vishnu/ros2_ws/build/ros2_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/vishnu/ros2_ws/build/ros2_demo --target install -- -j16 -l16

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/vishnu/ros2_ws/build/ros2_demo/publisher" "/home/vishnu/ros2_ws/build/ros2_demo/subscriber" "TARGETS" "publisher" "subscriber" "DESTINATION" "lib/ros2_demo")

@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/ros2_demo/ros2_demo.egg-info
+writing ../build/ros2_demo/ros2_demo.egg-info/PKG-INFO
+writing dependency_links to ../build/ros2_demo/ros2_demo.egg-info/dependency_links.txt
+writing entry points to ../build/ros2_demo/ros2_demo.egg-info/entry_points.txt
+writing requirements to ../build/ros2_demo/ros2_demo.egg-info/requires.txt
+writing top-level names to ../build/ros2_demo/ros2_demo.egg-info/top_level.txt
+writing manifest file '../build/ros2_demo/ros2_demo.egg-info/SOURCES.txt'
+reading manifest file '../build/ros2_demo/ros2_demo.egg-info/SOURCES.txt'
+writing manifest file '../build/ros2_demo/ros2_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vishnu/ros2_ws/build/ros2_demo/build
+creating /home/vishnu/ros2_ws/build/ros2_demo/build/lib
+creating /home/vishnu/ros2_ws/build/ros2_demo/build/lib/ros2_demo
+copying ros2_demo/__init__.py -> /home/vishnu/ros2_ws/build/ros2_demo/build/lib/ros2_demo
+copying ros2_demo/publisher.py -> /home/vishnu/ros2_ws/build/ros2_demo/build/lib/ros2_demo
+copying ros2_demo/subscriber.py -> /home/vishnu/ros2_ws/build/ros2_demo/build/lib/ros2_demo
+copying ros2_demo/turtle_nav.py -> /home/vishnu/ros2_ws/build/ros2_demo/build/lib/ros2_demo
+running install
+running install_lib
+creating /home/vishnu/ros2_ws/install/ros2_demo/lib/python3.8/site-packages/ros2_demo
+copying /home/vishnu/ros2_ws/build/ros2_demo/build/lib/ros2_demo/__init__.py -> /home/vishnu/ros2_ws/install/ros2_demo/lib/python3.8/site-packages/ros2_demo
+copying /home/vishnu/ros2_ws/build/ros2_demo/build/lib/ros2_demo/publisher.py -> /home/vishnu/ros2_ws/install/ros2_demo/lib/python3.8/site-packages/ros2_demo
+copying /home/vishnu/ros2_ws/build/ros2_demo/build/lib/ros2_demo/subscriber.py -> /home/vishnu/ros2_ws/install/ros2_demo/lib/python3.8/site-packages/ros2_demo
+copying /home/vishnu/ros2_ws/build/ros2_demo/build/lib/ros2_demo/turtle_nav.py -> /home/vishnu/ros2_ws/install/ros2_demo/lib/python3.8/site-packages/ros2_demo
+byte-compiling /home/vishnu/ros2_ws/install/ros2_demo/lib/python3.8/site-packages/ros2_demo/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/vishnu/ros2_ws/install/ros2_demo/lib/python3.8/site-packages/ros2_demo/publisher.py to publisher.cpython-38.pyc
+byte-compiling /home/vishnu/ros2_ws/install/ros2_demo/lib/python3.8/site-packages/ros2_demo/subscriber.py to subscriber.cpython-38.pyc
+byte-compiling /home/vishnu/ros2_ws/install/ros2_demo/lib/python3.8/site-packages/ros2_demo/turtle_nav.py to turtle_nav.cpython-38.pyc
+running install_data
+copying resource/ros2_demo -> /home/vishnu/ros2_ws/install/ros2_demo/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../build/ros2_demo/ros2_demo.egg-info to /home/vishnu/ros2_ws/install/ros2_demo/lib/python3.8/site-packages/ros2_demo-0.0.1-py3.8.egg-info
+running install_scripts
+Installing publisher script to /home/vishnu/ros2_ws/install/ros2_demo/lib/ros2_demo
+Installing subscriber script to /home/vishnu/ros2_ws/install/ros2_demo/lib/ros2_demo
+Installing turtle_nav script to /home/vishnu/ros2_ws/install/ros2_demo/lib/ros2_demo
+writing list of installed files to '/home/vishnu/ros2_ws/build/ros2_demo/install.log'

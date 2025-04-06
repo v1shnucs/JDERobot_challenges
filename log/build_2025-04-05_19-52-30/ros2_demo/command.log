@@ -1,0 +1,6 @@
+Invoking command in '/home/vishnu/ros2_ws/build/ros2_demo': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/vishnu/ros2_ws/ros2_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishnu/ros2_ws/install/ros2_demo
+Invoked command in '/home/vishnu/ros2_ws/build/ros2_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/vishnu/ros2_ws/ros2_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishnu/ros2_ws/install/ros2_demo
+Invoking command in '/home/vishnu/ros2_ws/build/ros2_demo': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/vishnu/ros2_ws/build/ros2_demo -- -j16 -l16
+Invoked command in '/home/vishnu/ros2_ws/build/ros2_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/vishnu/ros2_ws/build/ros2_demo -- -j16 -l16
+Invoking command in '/home/vishnu/ros2_ws/build/ros2_demo': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/vishnu/ros2_ws/build/ros2_demo --target install -- -j16 -l16
+Invoked command in '/home/vishnu/ros2_ws/build/ros2_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/vishnu/ros2_ws/build/ros2_demo --target install -- -j16 -l16

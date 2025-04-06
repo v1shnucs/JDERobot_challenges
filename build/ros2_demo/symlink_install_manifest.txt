@@ -1,0 +1,13 @@
+/home/vishnu/ros2_ws/install/ros2_demo/lib/ros2_demo/publisher
+/home/vishnu/ros2_ws/install/ros2_demo/lib/ros2_demo/subscriber
+/home/vishnu/ros2_ws/install/ros2_demo/share/ament_index/resource_index/package_run_dependencies/ros2_demo
+/home/vishnu/ros2_ws/install/ros2_demo/share/ament_index/resource_index/parent_prefix_path/ros2_demo
+/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/environment/ament_prefix_path.sh
+/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/environment/path.sh
+/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/local_setup.bash
+/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/local_setup.sh
+/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/local_setup.zsh
+/home/vishnu/ros2_ws/install/ros2_demo/share/ament_index/resource_index/packages/ros2_demo
+/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/cmake/ros2_demoConfig.cmake
+/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/cmake/ros2_demoConfig-version.cmake
+/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/package.xml

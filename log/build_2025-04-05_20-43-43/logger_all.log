@@ -1,0 +1,152 @@
+[0.120s] DEBUG:colcon:Command line arguments: ['/home/vishnu/.local/bin/colcon', 'build']
+[0.120s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f670ed21610>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f670ed21610>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f670efeff40>)
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.236s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vishnu/ros2_ws'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_demo) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_demo) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_demo) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_demo) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_demo) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_demo) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_demo) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_demo) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_demo' with type 'ros.ament_cmake' and name 'ros2_demo'
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.266s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vishnu/ros2_ws/install
+[0.267s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 265 installed packages in /opt/ros/dashing
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'ros2_demo' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'ros2_demo' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'ros2_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'ros2_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'ros2_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'ros2_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'ros2_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'ros2_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'ros2_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.294s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishnu/ros2_ws/build/ros2_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishnu/ros2_ws/install/ros2_demo', 'merge_install': False, 'path': '/home/vishnu/ros2_ws/ros2_demo', 'symlink_install': False, 'test_result_base': None}
+[0.294s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.295s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vishnu/ros2_ws/ros2_demo' with build type 'ament_cmake'
+[0.295s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vishnu/ros2_ws/ros2_demo'
+[0.296s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishnu/ros2_ws/build/ros2_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/vishnu/ros2_ws/ros2_demo -DCMAKE_INSTALL_PREFIX=/home/vishnu/ros2_ws/install/ros2_demo
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishnu/ros2_ws/build/ros2_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/vishnu/ros2_ws/ros2_demo -DCMAKE_INSTALL_PREFIX=/home/vishnu/ros2_ws/install/ros2_demo
+[0.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishnu/ros2_ws/build/ros2_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/vishnu/ros2_ws/build/ros2_demo -- -j16 -l16
+[1.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishnu/ros2_ws/build/ros2_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/vishnu/ros2_ws/build/ros2_demo -- -j16 -l16
+[1.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishnu/ros2_ws/build/ros2_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/vishnu/ros2_ws/build/ros2_demo --target install -- -j16 -l16
+[2.010s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_demo)
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo' for CMake module files
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo' for CMake config files
+[2.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_demo', 'cmake_prefix_path')
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/hook/cmake_prefix_path.ps1'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/hook/cmake_prefix_path.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/hook/cmake_prefix_path.sh'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo/lib'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo/bin'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo/lib/pkgconfig/ros2_demo.pc'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo/lib/python3.8/site-packages'
+[2.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_demo', 'pythonpath')
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/hook/pythonpath.ps1'
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/hook/pythonpath.dsv'
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/hook/pythonpath.sh'
+[2.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishnu/ros2_ws/build/ros2_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/vishnu/ros2_ws/build/ros2_demo --target install -- -j16 -l16
+[2.017s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo/bin'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/package.ps1'
+[2.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/package.dsv'
+[2.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/package.sh'
+[2.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/package.bash'
+[2.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/package.zsh'
+[2.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishnu/ros2_ws/install/ros2_demo/share/colcon-core/packages/ros2_demo)
+[2.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_demo)
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo' for CMake module files
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo' for CMake config files
+[2.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_demo', 'cmake_prefix_path')
+[2.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/hook/cmake_prefix_path.ps1'
+[2.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/hook/cmake_prefix_path.dsv'
+[2.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/hook/cmake_prefix_path.sh'
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo/lib'
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo/bin'
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo/lib/pkgconfig/ros2_demo.pc'
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo/lib/python3.8/site-packages'
+[2.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_demo', 'pythonpath')
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/hook/pythonpath.ps1'
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/hook/pythonpath.dsv'
+[2.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/hook/pythonpath.sh'
+[2.040s] Level 1:colcon.colcon_core.environment:checking '/home/vishnu/ros2_ws/install/ros2_demo/bin'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/package.ps1'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/package.dsv'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/package.sh'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/package.bash'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishnu/ros2_ws/install/ros2_demo/share/ros2_demo/package.zsh'
+[2.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishnu/ros2_ws/install/ros2_demo/share/colcon-core/packages/ros2_demo)
+[2.042s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.042s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.042s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.042s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.045s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[2.045s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.045s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.045s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[2.050s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.050s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vishnu/ros2_ws/install/local_setup.ps1'
+[2.051s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vishnu/ros2_ws/install/_local_setup_util_ps1.py'
+[2.052s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vishnu/ros2_ws/install/setup.ps1'
+[2.053s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vishnu/ros2_ws/install/local_setup.sh'
+[2.053s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vishnu/ros2_ws/install/_local_setup_util_sh.py'
+[2.053s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vishnu/ros2_ws/install/setup.sh'
+[2.054s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vishnu/ros2_ws/install/local_setup.bash'
+[2.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vishnu/ros2_ws/install/setup.bash'
+[2.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vishnu/ros2_ws/install/local_setup.zsh'
+[2.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vishnu/ros2_ws/install/setup.zsh'
